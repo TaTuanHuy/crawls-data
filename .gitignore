@@ -1,0 +1,40 @@
+# Virtual environment (venv)
+venv/
+.env/
+*.venv/
+*.env
+
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & debug
+logs/
+*.log
+debug.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files (Mac & Linux)
+.DS_Store
+Thumbs.db
+
+# Python dependency files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Build / Distribution
+dist/
+build/
+*.egg-info/
+
