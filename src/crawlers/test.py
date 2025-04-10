@@ -12,14 +12,24 @@ from src.crawlers.base_crawler import BaseCrawler
 from src.config.settings import OUTPUT_DIR
 
 class TotoCatalogCrawler(BaseCrawler):
-    """Crawler chuyên biệt để thu thập dữ liệu chi tiết từ danh sách sản phẩm TOTO"""
+    """
+        Crawler chuyên biệt để thu thập dữ liệu chi tiết từ danh sách sản phẩm TOTO
+        Args:
+            input_json_path (str): Đường dẫn đến file JSON đầu vào
+            output_dir (str, optional): Thư mục đầu ra tùy chỉnh. Mặc định là None.
+    """
     
-    def __init__(self, input_json_path):
+    
+    def __init__(self, input_json_path, output_dir=None):
         """Khởi tạo crawler với tên cụ thể và đường dẫn đến file JSON đầu vào"""
         super().__init__(name="toto_catalog_crawler")
         self.input_json_path = input_json_path
         self.base_url = "https://tototuantu.vn"
-        self.output_dir = os.path.join("src/test", "toto_products")
+
+        if output_dir:
+            self.output_dir = output_dir
+        else:
+            self.output_dir = os.path.join("src/test", "toto_products")
         
         # Thiết lập selectors cho tototuantu.vn (sử dụng từ TotoTuanTuCrawler)
         self.selectors = {
@@ -46,6 +56,7 @@ class TotoCatalogCrawler(BaseCrawler):
         # Tạo thư mục đầu ra nếu chưa tồn tại
         if not os.path.exists(self.output_dir):
             os.makedirs(self.output_dir)
+            self.logger.info(f"Đã tạo thư mục đầu ra: {self.output_dir}")
         
         # Đọc dữ liệu từ file JSON đầu vào
         self.products = self.load_input_json()

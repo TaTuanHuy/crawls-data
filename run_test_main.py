@@ -1,42 +1,36 @@
 import os
 import sys
+import argparse
 from src.crawlers.test import TotoCatalogCrawler
 
 def main():
     """Hàm chính để chạy crawler từ dòng lệnh"""
     
-    # Kiểm tra tham số dòng lệnh
-    if len(sys.argv) < 2:
-        print("Sử dụng: python run_catalog_crawler.py <đường_dẫn_file_json> [số_lượng_giới_hạn]")
+    # Sử dụng argparse để xử lý tham số dòng lệnh
+    parser = argparse.ArgumentParser(description='TOTO Catalog Crawler')
+    parser.add_argument('--input', '-i', type=str, required=True, help='Đường dẫn đến file JSON đầu vào')
+    parser.add_argument('--output', '-o', type=str, default=None, help='Thư mục đầu ra cho kết quả')
+    parser.add_argument('--limit', '-l', type=int, default=None, help='Giới hạn số lượng sản phẩm cần xử lý')
+    
+    args = parser.parse_args()
+    
+    # Kiểm tra file đầu vào tồn tại
+    if not os.path.exists(args.input):
+        print(f"Lỗi: File {args.input} không tồn tại")
         sys.exit(1)
     
-    # Lấy đường dẫn file JSON đầu vào
-    input_json_path = sys.argv[1]
-    
-    # Kiểm tra file tồn tại
-    if not os.path.exists(input_json_path):
-        print(f"Lỗi: File {input_json_path} không tồn tại")
-        sys.exit(1)
-    
-    # Lấy giới hạn số lượng sản phẩm (nếu có)
-    limit = None
-    if len(sys.argv) > 2:
-        try:
-            limit = int(sys.argv[2])
-        except ValueError:
-            print("Lỗi: Giới hạn phải là một số nguyên")
-            sys.exit(1)
-    
-    # Khởi tạo crawler
-    crawler = TotoCatalogCrawler(input_json_path)
+    # Khởi tạo crawler với thư mục đầu ra tùy chỉnh nếu được cung cấp
+    crawler = TotoCatalogCrawler(args.input, output_dir=args.output)
     
     try:
         # Xử lý tất cả sản phẩm
-        print(f"Bắt đầu xử lý sản phẩm từ file {input_json_path}")
-        if limit:
-            print(f"Giới hạn xử lý: {limit} sản phẩm")
+        print(f"Bắt đầu xử lý sản phẩm từ file {args.input}")
+        if args.limit:
+            print(f"Giới hạn xử lý: {args.limit} sản phẩm")
+        if args.output:
+            print(f"Thư mục đầu ra: {args.output}")
         
-        crawler.process_all_products(limit=limit)
+        crawler.process_all_products(limit=args.limit)
         print("Hoàn thành xử lý sản phẩm")
         
     except Exception as e:
