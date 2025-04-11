@@ -1,65 +1,52 @@
 [
     {
-        "name": "Van cảm ứng tiểu nam DUE126UPK",
-        "product_url": "https://tototuantu.vn/products/van-cam-ung-tieu-nam-due126upk-1",
-        "price": "6,076,200₫",
-        "original_price": "7,790,000₫",
-        "image_url": "https://product.hstatic.net/1000238289/product/due126upk_c0abaeaf709942189591cf97cb320c5d_468d0ca0382d47f78288c5402dbdca07_medium.jpg",
-        "sku": null,
-        "category": "thiet-bi-ve-sinh-khu-cong-cong"
-    },
-    {
-        "name": "Bồn Tiểu Nam TOTO USWN925AEV Cảm Ứng Điện 220V 0.5L",
-        "product_url": "https://tototuantu.vn/products/tieu-nam-treo-tuong-tich-hop-van-xa-tu-dong-uswn925aev",
-        "price": "19,484,400₫",
-        "original_price": "24,980,000₫",
-        "image_url": "https://product.hstatic.net/1000238289/product/uswn925ae_r1_66654ca7bf5741b0929c202524f3bf88_medium.jpeg",
-        "sku": null,
-        "category": "thiet-bi-ve-sinh-khu-cong-cong"
-    },
-    {
-        "name": "Khung treo bàn cầu WH005A",
-        "product_url": "https://tototuantu.vn/products/khung-treo-ban-cau-wh005a",
-        "price": "4,625,400₫",
-        "original_price": "5,930,000₫",
-        "image_url": "https://product.hstatic.net/1000238289/product/th.toto.com-wh005a-wh005a_d14ca73a66d64fb39121dc7a63f3139f_medium.jpg",
-        "sku": null,
-        "category": "thiet-bi-ve-sinh-khu-cong-cong"
-    },
-    {
-        "name": "Vòi cảm ứng nhiệt độ TOTO TLE27002A/TLE01502A1/TLN01103A/TLE05701A",
-        "product_url": "https://tototuantu.vn/products/voi-cam-ung-nhiet-do-toto-tle27002a-tle01502a1-tln01103a-tle05701a",
-        "price": "12,636,000₫",
-        "original_price": "16,200,000₫",
-        "image_url": "https://product.hstatic.net/1000238289/product/tle27002a_62a1a49be3a7b_cd6e61c205a34cfca304aba04fdc831a_medium.jpeg",
-        "sku": null,
-        "category": "voi"
-    },    
-    {
-        "name": "Vòi xả bồn nóng lạnh TBG10306AA/TBN01105B",
-        "product_url": "https://tototuantu.vn/products/voi-xa-bon-nong-lanh-tbg10306a-tbn01105b-1",
-        "price": "37,042,200₫",
-        "original_price": "47,490,000₫",
-        "image_url": "https://product.hstatic.net/1000238289/product/tbg10306a.tbn01105b_74e8e55172eb45b6b724c6ee742dee3c_92f6fe4524a84f36bc38667f1ea539de_medium.jpg",
-        "sku": null,
-        "category": "voi"
-    }, 
-    {
-        "name": "Vòi cảm ứng nước lạnh TOTO TLE27002A/TLE03502A1/TLN01102A",
-        "product_url": "https://tototuantu.vn/products/voi-cam-ung-nuoc-lanh-toto-tle27002a-tle03502a1-tln01102a",
-        "price": "9,664,200₫",
-        "original_price": "12,390,000₫",
-        "image_url": "https://product.hstatic.net/1000238289/product/tle27002a_62a1904caecb9_e171afc9af4544d3836dcff0d86cf3ab_medium.jpeg",
-        "sku": null,
-        "category": "voi"
-    },
-    {
-        "name": "Van gật gù điều chỉnh nóng lạnh TBG02304B/TBN01001B",
-        "product_url": "https://tototuantu.vn/products/van-gat-gu-dieu-chinh-nong-lanh-tbg02304b-tbn01001b",
-        "price": "6,450,600₫",
-        "original_price": "8,270,000₫",
-        "image_url": "https://product.hstatic.net/1000238289/product/tbg02304b_tbn01001b_01_dd88855ea5e7450684e541de7a543dc1_f2b49805086c47829ed066554d735a89_medium.jpg",
-        "sku": null,
-        "category": "sen-tam"
+      "name": "Bồn cầu một khối MS857CDW18 kèm nắp rửa điện tử WASHLET dòng C2 cơ bản – TCF23710AAA",
+      "product_url": "https://tototuantu.vn/products/bon-cau-mot-khoi-ms857cdw18-kem-nap-rua-dien-tu-washlet-dong-c2-co-ban-tcf23710aaa",
+      "price": "16,946,000₫",
+      "original_price": null,
+      "image_url": "https://product.hstatic.net/1000238289/product/ms857cdw184x_6583285e99b94b74a92a2d9cce6efb2c_medium.png",
+      "sku": "MS857CDW18",
+      "category": "bon-cau",
+      "scraped_at": "2025-04-10 09:12:24",
+      "product_exists": true,
+      "title": "Bồn cầu một khối MS857CDW18 kèm nắp rửa điện tử WASHLET dòng C2 cơ bản – TCF23710AAA",
+      "sku_array": [
+        "MS857CDW18",
+        "TCF23710AAA"
+      ],
+      "sku_additional": "TCF23710AAA",
+      "specifications": {
+        "Mã sản phẩm": "MS857CDW18",
+        "Tên sản phẩm": "Bồn cầu một khối kèm nắp rửa điện tử WASHLET dòng C5 – TCF23710AAA",
+        "Kích thước": "L709 x W380 x H645 (mm)",
+        "Màu sắc": "Trắng",
+        "Hệ thống xả": "Tornado",
+        "Lượng nước xả": "4.5/3L",
+        "Thiết kế": "Thân dài, thân kín"
+      },
+      "description_html": "\n\t\t\t\t\t\t\t<h6 style=\"display: none;\"><span style=\"color:#a47f36\"><strong>THÔNG SỐ KỸ THUẬT</strong></span></h6><table cellpadding=\"0\" cellspacing=\"0\" border=\"1\" style=\"border-collapse: collapse; width: 100%; display: none;\"><tbody><tr><td style=\"width:250px\"><strong>Mã sản phẩm</strong></td><td style=\"width:601px\">MS857CDW18</td></tr><tr><td style=\"width:250px\"><strong>Tên sản phẩm</strong></td><td style=\"width:601px\"><p>Bồn cầu một khối kèm nắp rửa điện tử WASHLET dòng C5 – TCF23710AAA</p></td></tr><tr><td style=\"width:250px\"><strong>Kích thước</strong></td><td style=\"width:601px\">L709 x W380 x H645 (mm)</td></tr><tr><td style=\"width:250px\"><strong>Màu sắc</strong></td><td style=\"width:601px\">Trắng</td></tr><tr><td style=\"width:250px\"><strong>Hệ thống xả</strong></td><td style=\"width:601px\">Tornado</td></tr><tr><td style=\"width:250px\"><strong>Lượng nước xả</strong></td><td style=\"width:601px\">4.5/3L</td></tr><tr><td style=\"width:250px\"><strong>Thiết kế</strong></td><td style=\"width:601px\">Thân dài, thân kín</td></tr><tr><td style=\"width:250px\"><strong>Tâm xả</strong></td><td style=\"width:601px\">305mm</td></tr><tr><td style=\"width:250px\"><strong>Áp lực nước</strong></td><td style=\"width:601px\">0.05 ~ 0.70 MPa</td></tr><tr><td style=\"width:250px\"><strong>Xuất xứ</strong></td><td style=\"width:601px\">Việt Nam, Malaysia</td></tr><tr><td style=\"width:250px\"><strong>Bao gồm</strong></td><td style=\"width:601px\">Van dừng</td></tr><tr><td style=\"width:250px\"><strong>Bảo hành</strong></td><td style=\"width:601px\">2 năm</td></tr></tbody></table><div><h2><span style=\"font-size:16px\"><strong>TÍNH NĂNG:</strong></span></h2><p>• Men sứ chống dính, chống bám bẩn CEFIONTECT<br>• Hệ thống xả xoáy Tornado siêu mạnh, siêu êm, tiết kiệm nước<br>• Công nghệ nước điện phân khử khuẩn Ewater+&nbsp; cho vệ sinh vòi rửa<br>• Vòi rửa massage đa chức năng, rửa sạch, êm ái<br>• Tự vệ sinh vòi rửa trước và sau khi sử dụng<br>• Phun sương, sấy khô, khử mùi, sưởi ấm bệ ngồi</p><h2><strong><span style=\"font-size:16px\">CHI TIẾT SẢN PHẨM:</span></strong></h2><div><ul><li><p>Thân cầu: <strong>MS857CDW18</strong>&nbsp;( xuất xứ: Việt Nam&nbsp;)</p></li><li><p>Nắp rửa điện tử Washlet: <a href=\"https://tototuantu.vn/products/nap-rua-dien-tu-washlet-dong-c2-tcf23710aaa\"><strong>TCF23710AAA</strong></a>&nbsp;( xuất xứ: Malaysia&nbsp;)</p></li></ul></div><h2><span style=\"font-size:16px\"><strong>BẢN VẼ KỸ THUẬT&nbsp;MS857CDW18/TCF23710AAA</strong></span></h2></div><div><p style=\"text-align: center\"><img loading=\"lazy\" alt=\"Bon-cau-1-khoi-ms857cdw18-kem-nap-rua-dien-tu-tcf23710aaa\" src=\"//file.hstatic.net/1000238289/file/ms857cdw18_ban_ve4x.png\"></p><div>&nbsp;</div><strong><span style=\"font-size:16px\">HƯỚNG DẪN LẮP ĐẶT BỒN CẦU MỘT KHỐI MS857CDW18:</span></strong><div><span style=\"font-size:16px\"><strong><span style=\"font-size:16px\"><strong><div class=\"youtube-embed-wrapper\" style=\"position: relative; padding-bottom: 56.25%; height: 0px;\"><iframe loading=\"lazy\" class=\"iframe-youtube-embed\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/tG6VMQY9hiM\" style=\"aspect-ratio: 16 / 9; width: 100%; height: 100%; position: absolute;\" frameborder=\"0\"></iframe></div></strong></span></strong></span></div><span style=\"font-size:16px\"><strong>XEM THÊM:&nbsp;</strong></span></div><div><a href=\"https://drive.google.com/file/d/17NT6wIf950ZF32o_xMPh68MWsJGBPtRk/view?usp=sharing\"><strong>THÔNG SỐ KỸ THUẬT</strong></a></div><div><a href=\"https://drive.google.com/file/d/1DTbt8O-lq0S1th4D2vh1A0tkxcXfF_-M/view?usp=sharing\"><strong>HƯỚNG DẪN LẮP ĐẶT</strong></a></div><div><a href=\"https://drive.google.com/file/d/1mvnMnErdvtQsDAgfnv9iTexKm6C_X3OZ/view?usp=sharing\"><strong>HƯỚNG DẪN SỬ DỤNG</strong></a></div>\n\t\t\t\t\t\t",
+      "description_text": "TÍNH NĂNG:\n• Men sứ chống dính, chống bám bẩn CEFIONTECT\n• Hệ thống xả xoáy Tornado siêu mạnh, siêu êm, tiết kiệm nước\n• Công nghệ nước điện phân khử khuẩn Ewater+  cho vệ sinh vòi rửa\n• Vòi rửa massage đa chức năng, rửa sạch, êm ái\n• Tự vệ sinh vòi rửa trước và sau khi sử dụng\n• Phun sương, sấy khô, khử mùi, sưởi ấm bệ ngồi\nCHI TIẾT SẢN PHẨM:\nThân cầu: MS857CDW18 ( xuất xứ: Việt Nam )\nNắp rửa điện tử Washlet: TCF23710AAA ( xuất xứ: Malaysia )\nBẢN VẼ KỸ THUẬT MS857CDW18/TCF23710AAA",
+      "features": [
+        "Thân cầu: MS857CDW18 ( xuất xứ: Việt Nam )",
+        "Nắp rửa điện tử Washlet: TCF23710AAA ( xuất xứ: Malaysia )"
+      ],
+      "related_links": {
+        "TCF23710AAA": "https://tototuantu.vn/products/nap-rua-dien-tu-washlet-dong-c2-tcf23710aaa"
+      },
+      "technical_drawings": [
+        "https://file.hstatic.net/1000238289/file/ms857cdw18_ban_ve4x.png"
+      ],
+      "product_details": {
+        "TÍNH NĂNG:": "• Men sứ chống dính, chống bám bẩn CEFIONTECT• Hệ thống xả xoáy Tornado siêu mạnh, siêu êm, tiết kiệm nước• Công nghệ nước điện phân khử khuẩn Ewater+  cho vệ sinh vòi rửa• Vòi rửa massage đa chức năng, rửa sạch, êm ái• Tự vệ sinh vòi rửa trước và sau khi sử dụng• Phun sương, sấy khô, khử mùi, sưởi ấm bệ ngồi",
+        "CHI TIẾT SẢN PHẨM:": "Thân cầu: MS857CDW18 ( xuất xứ: Việt Nam )Nắp rửa điện tử Washlet: TCF23710AAA ( xuất xứ: Malaysia )"
+      },
+      "data_img_urls": [
+        "https://product.hstatic.net/1000238289/product/ms857cdw184x_6583285e99b94b74a92a2d9cce6efb2c.png",
+        "https://product.hstatic.net/1000238289/product/video_tg6vmqy9him_b9d9bd8852b74e23920b8fb1176d6f07.jpg"
+      ],
+      "categories": [
+        "Bồn cầu",
+        "Bồn Cầu Thông Minh TOTO"
+      ]
     }
 ]
